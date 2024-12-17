@@ -12,6 +12,7 @@ import { Seis } from './DEBER 2/6x6/user.component';
 import { FORMULARIOComponent } from './formulario/formulario.component';
 import { CARRUCELComponent } from './carrucel/carrucel.component';
 import { GALERIAComponent } from './galeria/galeria.component';
+import { siete } from './DEBER 2/7x7/user.component';
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' }, 
   { path: 'home', component: HomeComponent }, 
@@ -24,6 +25,7 @@ export const routes: Routes = [
   { path: 'formulario', component: FORMULARIOComponent },
   { path: 'carrucel', component: CARRUCELComponent },
   { path: 'GALERIA', component: GALERIAComponent },
+  {path:'siete', component: siete},
   { path: '**', redirectTo: '/home' },
 ];
 
